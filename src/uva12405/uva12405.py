@@ -6,6 +6,8 @@
 nCases = input()
 case = 1
 while(True):
+    if(case == nCases): break
+    
     try:    
         n = input()
         n = int(n)      # Numero de ca
