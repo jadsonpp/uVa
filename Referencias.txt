@@ -2,3 +2,6 @@
 
 uva 459
 https://algorithmist.com/wiki/UVa_459
+
+uva 108
+https://www.redgreencode.com/three-ways-solve-uva-108/
