@@ -1,4 +1,4 @@
-# UVa 1100 - The Trip, 2007
+# UVa 11100 - The Trip, 2007
 
 # @authors Guilherme Bodart.
 

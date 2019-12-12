@@ -4,8 +4,6 @@
 
 '''
 
-
-
 while True:
     try:
         nNumeros = input()

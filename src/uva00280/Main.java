@@ -1,3 +1,9 @@
+/* Main.java
+ * UVa 11340 - Newspaper
+ *
+ * @authors Douglas Bolis.
+ */
+
 import java.util.Scanner;
 import java.util.StringTokenizer;
 

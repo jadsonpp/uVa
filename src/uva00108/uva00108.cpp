@@ -16,12 +16,12 @@ int main() {
     for(int n=0;n<dim;n++){
         for(int m=0;m<dim;m++){
             scanf("%d",&listaSoma[n][m]);
-            if(n>0){
-                listaSoma[n][m] = listaSoma[n][m] + listaSoma[n-1][m];
-            }
             if(m>0){
                 listaSoma[n][m] = listaSoma[n][m] + listaSoma[n][m-1];
             }
+            if(n>0){
+                listaSoma[n][m] = listaSoma[n][m] + listaSoma[n-1][m];
+            }            
             if(n>0 && m>0){
                 listaSoma[n][m] = listaSoma[n][m] - listaSoma[n-1][m-1];
             }
@@ -34,13 +34,13 @@ int main() {
             for(int lin=i;lin<dim;lin++){
                 for(int col=j;col<dim;col++){
                     soma = listaSoma[lin][col];
-                    if(i>0){
-                        soma = soma - listaSoma[i-1][col];
-                    }
                     if(j>0){
                         soma = soma - listaSoma[lin][j-1];
                     }
-                    if(i>0 && j>0){
+                    if(i>0){
+                        soma = soma - listaSoma[i-1][col];
+                    }                    
+                    if(j>0 && i>0){
                         soma = soma + listaSoma[i-1][j-1];
                     }
                     if(soma > maxSoma){

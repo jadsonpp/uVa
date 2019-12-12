@@ -1,3 +1,7 @@
+# UVa 00108 - Max Sum
+
+# @authors Guilherme Bodart.
+
 def calculaSoma(i,j,lin,col,lista,dicSoma):
     soma = 0
     for k in range(lin,i+1):

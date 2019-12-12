@@ -1,8 +1,4 @@
-// UVa 11000 - The Trip, 2007
-
-// @authors Guilherme Bodart.
-
-// UVa 00514 - Rails
+// UVa 11100 - The Trip, 2007
 
 // @authors Guilherme Bodart.
 
