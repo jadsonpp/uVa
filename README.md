@@ -2,7 +2,7 @@
 
 ### Informações gerais
 
-Trabalho implementado utilizando a linguagem de programação Java(versão JDK 8.0_201), Python 3.x
+Trabalho implementado utilizando a linguagem de programação Java(versão JDK 8.0_201), Python 3.x e c/c++
 
 - Autores: Douglas Bolis, Guilherme Bodart e Jadson Pereira
 - Ambiente de desenvolvimento: Apache Netbeans IDE (versão 11.2), 
